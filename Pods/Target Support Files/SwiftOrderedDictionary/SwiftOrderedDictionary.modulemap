@@ -1,0 +1,6 @@
+framework module SwiftOrderedDictionary {
+  umbrella header "SwiftOrderedDictionary-umbrella.h"
+
+  export *
+  module * { export * }
+}
