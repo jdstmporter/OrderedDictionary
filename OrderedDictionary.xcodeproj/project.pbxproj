@@ -48,7 +48,6 @@
 		E16F7660240AFAFC006C5FC8 /* OrderedDictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16F7671240AFC23006C5FC8 /* SwiftOrderedDictionary.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SwiftOrderedDictionary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E16F7672240AFC23006C5FC8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E16F7673240AFC23006C5FC8 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = OrderedDictionary/LICENSE.md; sourceTree = "<group>"; };
 		E16F7674240AFC23006C5FC8 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E16F7675240AFC23006C5FC8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E16F767C240AFC35006C5FC8 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
@@ -122,7 +121,6 @@
 			children = (
 				E16F767B240AFC35006C5FC8 /* src */,
 				E16F7674240AFC23006C5FC8 /* LICENSE */,
-				E16F7673240AFC23006C5FC8 /* LICENSE.md */,
 				E16F7671240AFC23006C5FC8 /* SwiftOrderedDictionary.podspec */,
 				E16F7672240AFC23006C5FC8 /* Podfile */,
 				E16F7675240AFC23006C5FC8 /* README.md */,
