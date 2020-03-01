@@ -1,6 +1,6 @@
 {
   "name": "SwiftOrderedDictionary",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "summary": "An implementation of a Swift Ordered Dictionary",
   "description": "A version of the standard Swift Dictionary class that remembers te order in which items were added.  Sticks as close as possible to the Dictionary API, so it should be usable as a drop-in replacement.",
   "homepage": "https://github.com/jdstmporter/OrderedDictionary.git",
@@ -18,8 +18,16 @@
   },
   "source": {
     "git": "https://github.com/jdstmporter/OrderedDictionary.git",
-    "tag": "0.0.1"
+    "tag": "1.0.0"
   },
   "source_files": "src/*.{swift}",
+  "testspecs": [
+    {
+      "name": "Tests",
+      "test_type": "unit",
+      "source_files": "Tests/*.{swift}",
+      "frameworks": "XCTest"
+    }
+  ],
   "swift_version": "5.0"
 }

@@ -1,6 +1,29 @@
+public struct Pair<K,V> {
+    public let key : K
+    public let value : V
+    
+    public init( _ kv : (K,V)) {
+        self.key=kv.0
+        self.value=kv.1
+    }
+    public init( key : K, value : V) {
+        self.key=key
+        self.value=value
+    }
+    public init(_ key : K,_ value : V) {
+        self.key=key
+        self.value=value
+    }
+}
+
+extension Pair : Equatable where K : Equatable, V : Equatable {
+    
+}
+
+
 public class OrderedDictionary<K,V> : Sequence where K : Hashable {
     
-    public typealias Element = (key: K,value : V)
+    public typealias Element = Pair<K,V>
     public typealias Iterator = Array<Element>.Iterator
     public typealias Keys = Array<K>
     public typealias Values = Array<V>
@@ -68,7 +91,7 @@ public class OrderedDictionary<K,V> : Sequence where K : Hashable {
         keys=[]
         dict.removeAll(keepingCapacity: k)
     }
-    public func removeValue(forKey key : K) -> V? {
+    @discardableResult public func removeValue(forKey key : K) -> V? {
         guard keys.contains(key) else { return nil }
         let out = self[key]
         keys.removeAll { $0 == key }
@@ -78,6 +101,8 @@ public class OrderedDictionary<K,V> : Sequence where K : Hashable {
     public func contains(_ key : K) -> Bool { keys.contains(key) }
     
 }
+
+
 
 
 

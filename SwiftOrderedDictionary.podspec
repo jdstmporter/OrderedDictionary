@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SwiftOrderedDictionary"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "An implementation of a Swift Ordered Dictionary"
 
   spec.description  = <<-DESC
@@ -25,8 +25,6 @@ Pod::Spec.new do |spec|
 
   spec.homepage     = "https://github.com/jdstmporter/OrderedDictionary.git"
   
-
-
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Licensing your code is important. See https://choosealicense.com for more info.
@@ -34,9 +32,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  
   spec.license      = { :type => "BSD", :file => "LICENSE" }
-
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -70,28 +66,13 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/jdstmporter/OrderedDictionary.git", :tag => "#{spec.version}" }
 
-
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  CocoaPods is smart about how it includes source code. For source files
-  #  giving a folder will include any swift, h, m, mm, c & cpp files.
-  #  For header files it will include any header in the folder.
-  #  Not including the public_header_files will make all headers public.
-  #
-
   spec.source_files  = "src/*.{swift}"
   
+  spec.test_spec do |test_spec|
+      test_spec.source_files = "Tests/*.{swift}"
+      test_spec.frameworks = "XCTest"
+      end
+  
 
-
-  # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  If your library depends on compiler flags you can set them in the xcconfig hash
-  #  where they will only apply to your library. If you depend on other Podspecs
-  #  you can include multiple dependencies to ensure it works.
-
-  # spec.requires_arc = true
-
-  # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
 
 end

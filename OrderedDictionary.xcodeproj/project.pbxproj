@@ -9,9 +9,12 @@
 /* Begin PBXBuildFile section */
 		C1786C064D869DAA9832629A /* Pods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF758EB4759DAD4B35500AD /* Pods_Tests.framework */; };
 		E16F767F240AFC35006C5FC8 /* orderedDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F767D240AFC35006C5FC8 /* orderedDict.swift */; };
-		E16F7687240AFF90006C5FC8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F7686240AFF90006C5FC8 /* main.swift */; };
-		E16F7692240AFFA4006C5FC8 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F7691240AFFA4006C5FC8 /* Tests.swift */; };
-		E2511923C2E3A98ABBF4CA4E /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA390E00D0CFE12A9359B4B /* Pods_Example.framework */; };
+		E16F7692240AFFA4006C5FC8 /* testOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F7691240AFFA4006C5FC8 /* testOrder.swift */; };
+		E16F76A9240C490B006C5FC8 /* base.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F76A8240C490B006C5FC8 /* base.swift */; };
+		E16F76AB240C4978006C5FC8 /* dictBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F76AA240C4978006C5FC8 /* dictBase.swift */; };
+		E16F76AD240C4A12006C5FC8 /* testValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F76AC240C4A12006C5FC8 /* testValues.swift */; };
+		E16F76AF240C4DCD006C5FC8 /* testIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F76AE240C4DCD006C5FC8 /* testIterator.swift */; };
+		E16F76B1240C4DE3006C5FC8 /* testRemoval.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F76B0240C4DE3006C5FC8 /* testRemoval.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,18 +26,6 @@
 			remoteInfo = OrderedDictionaryFramework;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		E16F7682240AFF90006C5FC8 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6FA390E00D0CFE12A9359B4B /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,15 +39,16 @@
 		E16F7672240AFC23006C5FC8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E16F7674240AFC23006C5FC8 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E16F7675240AFC23006C5FC8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		E16F767C240AFC35006C5FC8 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		E16F767D240AFC35006C5FC8 /* orderedDict.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = orderedDict.swift; sourceTree = "<group>"; };
-		E16F7684240AFF90006C5FC8 /* Example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Example; sourceTree = BUILT_PRODUCTS_DIR; };
-		E16F7686240AFF90006C5FC8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E16F768F240AFFA4006C5FC8 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E16F7691240AFFA4006C5FC8 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		E16F7691240AFFA4006C5FC8 /* testOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testOrder.swift; sourceTree = "<group>"; };
 		E16F7693240AFFA4006C5FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E16F76A1240B410A006C5FC8 /* SwiftOrderedDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftOrderedDictionary.h; sourceTree = "<group>"; };
 		E16F76A2240B410A006C5FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E16F76A8240C490B006C5FC8 /* base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = base.swift; sourceTree = "<group>"; };
+		E16F76AA240C4978006C5FC8 /* dictBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dictBase.swift; sourceTree = "<group>"; };
+		E16F76AC240C4A12006C5FC8 /* testValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testValues.swift; sourceTree = "<group>"; };
+		E16F76AE240C4DCD006C5FC8 /* testIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testIterator.swift; sourceTree = "<group>"; };
+		E16F76B0240C4DE3006C5FC8 /* testRemoval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testRemoval.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +56,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E16F7681240AFF90006C5FC8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E2511923C2E3A98ABBF4CA4E /* Pods_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +98,6 @@
 				E16F7671240AFC23006C5FC8 /* SwiftOrderedDictionary.podspec */,
 				E16F7672240AFC23006C5FC8 /* Podfile */,
 				E16F7675240AFC23006C5FC8 /* README.md */,
-				E16F7685240AFF90006C5FC8 /* Example */,
 				E16F7690240AFFA4006C5FC8 /* Tests */,
 				E16F76A0240B410A006C5FC8 /* SwiftOrderedDictionary */,
 				E16F7661240AFAFC006C5FC8 /* Products */,
@@ -127,7 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				E16F7660240AFAFC006C5FC8 /* OrderedDictionary.framework */,
-				E16F7684240AFF90006C5FC8 /* Example */,
 				E16F768F240AFFA4006C5FC8 /* Tests.xctest */,
 			);
 			name = Products;
@@ -136,25 +118,22 @@
 		E16F767B240AFC35006C5FC8 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				E16F767C240AFC35006C5FC8 /* .gitkeep */,
+				E16F76A2240B410A006C5FC8 /* Info.plist */,
 				E16F767D240AFC35006C5FC8 /* orderedDict.swift */,
 			);
 			path = src;
 			sourceTree = "<group>";
 		};
-		E16F7685240AFF90006C5FC8 /* Example */ = {
-			isa = PBXGroup;
-			children = (
-				E16F7686240AFF90006C5FC8 /* main.swift */,
-			);
-			path = Example;
-			sourceTree = "<group>";
-		};
 		E16F7690240AFFA4006C5FC8 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				E16F7691240AFFA4006C5FC8 /* Tests.swift */,
+				E16F7691240AFFA4006C5FC8 /* testOrder.swift */,
 				E16F7693240AFFA4006C5FC8 /* Info.plist */,
+				E16F76A8240C490B006C5FC8 /* base.swift */,
+				E16F76AA240C4978006C5FC8 /* dictBase.swift */,
+				E16F76AC240C4A12006C5FC8 /* testValues.swift */,
+				E16F76AE240C4DCD006C5FC8 /* testIterator.swift */,
+				E16F76B0240C4DE3006C5FC8 /* testRemoval.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -162,8 +141,6 @@
 		E16F76A0240B410A006C5FC8 /* SwiftOrderedDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				E16F76A1240B410A006C5FC8 /* SwiftOrderedDictionary.h */,
-				E16F76A2240B410A006C5FC8 /* Info.plist */,
 			);
 			path = SwiftOrderedDictionary;
 			sourceTree = "<group>";
@@ -199,24 +176,6 @@
 			productReference = E16F7660240AFAFC006C5FC8 /* OrderedDictionary.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E16F7683240AFF90006C5FC8 /* Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E16F7688240AFF90006C5FC8 /* Build configuration list for PBXNativeTarget "Example" */;
-			buildPhases = (
-				DE8E6E301598DF50DD83CA83 /* [CP] Check Pods Manifest.lock */,
-				E16F7680240AFF90006C5FC8 /* Sources */,
-				E16F7681240AFF90006C5FC8 /* Frameworks */,
-				E16F7682240AFF90006C5FC8 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Example;
-			productName = Example;
-			productReference = E16F7684240AFF90006C5FC8 /* Example */;
-			productType = "com.apple.product-type.tool";
-		};
 		E16F768E240AFFA4006C5FC8 /* Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E16F7697240AFFA4006C5FC8 /* Build configuration list for PBXNativeTarget "Tests" */;
@@ -250,9 +209,6 @@
 					E16F765F240AFAFC006C5FC8 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
-					E16F7683240AFF90006C5FC8 = {
-						CreatedOnToolsVersion = 11.3.1;
-					};
 					E16F768E240AFFA4006C5FC8 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -272,7 +228,6 @@
 			projectRoot = "";
 			targets = (
 				E16F765F240AFAFC006C5FC8 /* OrderedDictionary */,
-				E16F7683240AFF90006C5FC8 /* Example */,
 				E16F768E240AFFA4006C5FC8 /* Tests */,
 			);
 		};
@@ -335,28 +290,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tests/Pods-Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DE8E6E301598DF50DD83CA83 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -368,19 +301,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E16F7680240AFF90006C5FC8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E16F7687240AFF90006C5FC8 /* main.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E16F768B240AFFA4006C5FC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E16F7692240AFFA4006C5FC8 /* Tests.swift in Sources */,
+				E16F76A9240C490B006C5FC8 /* base.swift in Sources */,
+				E16F76AF240C4DCD006C5FC8 /* testIterator.swift in Sources */,
+				E16F7692240AFFA4006C5FC8 /* testOrder.swift in Sources */,
+				E16F76AB240C4978006C5FC8 /* dictBase.swift in Sources */,
+				E16F76B1240C4DE3006C5FC8 /* testRemoval.swift in Sources */,
+				E16F76AD240C4A12006C5FC8 /* testValues.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,7 +454,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftOrderedDictionary/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/src/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -548,7 +478,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftOrderedDictionary/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/src/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -558,30 +488,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.porternet.OrderedDictionaryFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		E16F7689240AFF90006C5FC8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AA982806A9719602C8B60A5 /* Pods-Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XLKATCU397;
-				ENABLE_HARDENED_RUNTIME = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		E16F768A240AFF90006C5FC8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A666FE1AFB4FF5EFC489C043 /* Pods-Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XLKATCU397;
-				ENABLE_HARDENED_RUNTIME = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -641,15 +547,6 @@
 			buildConfigurations = (
 				E16F7669240AFAFC006C5FC8 /* Debug */,
 				E16F766A240AFAFC006C5FC8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E16F7688240AFF90006C5FC8 /* Build configuration list for PBXNativeTarget "Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E16F7689240AFF90006C5FC8 /* Debug */,
-				E16F768A240AFF90006C5FC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,5 +1,5 @@
 PODS:
-  - SwiftOrderedDictionary (0.0.1)
+  - SwiftOrderedDictionary (1.0.0)
 
 DEPENDENCIES:
   - SwiftOrderedDictionary (from `.`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "."
 
 SPEC CHECKSUMS:
-  SwiftOrderedDictionary: b32752060aa784572597e09f5f5425fb4f60ecb7
+  SwiftOrderedDictionary: 18a54dfc6c8f593f44220f13676f6a167668969f
 
-PODFILE CHECKSUM: 91ec3984babdd429182d0cbc09b307bffddc0557
+PODFILE CHECKSUM: 4373a30890f32cfbd58dac8801bc0c6319ac495c
 
 COCOAPODS: 1.8.4
