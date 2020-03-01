@@ -20,6 +20,6 @@
     "git": "https://github.com/jdstmporter/OrderedDictionary.git",
     "tag": "0.0.1"
   },
-  "source_files": "OrderedDictionary/src/*.{swift}",
+  "source_files": "src/*.{swift}",
   "swift_version": "5.0"
 }

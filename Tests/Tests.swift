@@ -96,7 +96,7 @@ class Tests: XCTestCase {
     func testAddNonDistinctKeysCount() {
         let keys : [UInt] = rng.array(2*N, min: 0, max: N)
         keys.forEach { d[$0] = rng.string(10) }
-
+        print("Count is \(d.count), added \(Set(keys).count)")
         XCTAssertEqual(d.count, Set(keys).count)
     }
     

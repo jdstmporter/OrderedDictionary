@@ -11,8 +11,6 @@
 		E16F767F240AFC35006C5FC8 /* orderedDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F767D240AFC35006C5FC8 /* orderedDict.swift */; };
 		E16F7687240AFF90006C5FC8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F7686240AFF90006C5FC8 /* main.swift */; };
 		E16F7692240AFFA4006C5FC8 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F7691240AFFA4006C5FC8 /* Tests.swift */; };
-		E16F76A3240B410A006C5FC8 /* SwiftOrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = E16F76A1240B410A006C5FC8 /* SwiftOrderedDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E16F76A7240B4146006C5FC8 /* orderedDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F767D240AFC35006C5FC8 /* orderedDict.swift */; };
 		E2511923C2E3A98ABBF4CA4E /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA390E00D0CFE12A9359B4B /* Pods_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,7 +55,6 @@
 		E16F768F240AFFA4006C5FC8 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16F7691240AFFA4006C5FC8 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		E16F7693240AFFA4006C5FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E16F769F240B410A006C5FC8 /* SwiftOrderedDictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftOrderedDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16F76A1240B410A006C5FC8 /* SwiftOrderedDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftOrderedDictionary.h; sourceTree = "<group>"; };
 		E16F76A2240B410A006C5FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,13 +80,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1786C064D869DAA9832629A /* Pods_Tests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E16F769C240B410A006C5FC8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +129,6 @@
 				E16F7660240AFAFC006C5FC8 /* OrderedDictionary.framework */,
 				E16F7684240AFF90006C5FC8 /* Example */,
 				E16F768F240AFFA4006C5FC8 /* Tests.xctest */,
-				E16F769F240B410A006C5FC8 /* SwiftOrderedDictionary.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -186,14 +175,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E16F769A240B410A006C5FC8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E16F76A3240B410A006C5FC8 /* SwiftOrderedDictionary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,24 +237,6 @@
 			productReference = E16F768F240AFFA4006C5FC8 /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E16F769E240B410A006C5FC8 /* SwiftOrderedDictionary */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E16F76A4240B410A006C5FC8 /* Build configuration list for PBXNativeTarget "SwiftOrderedDictionary" */;
-			buildPhases = (
-				E16F769A240B410A006C5FC8 /* Headers */,
-				E16F769B240B410A006C5FC8 /* Sources */,
-				E16F769C240B410A006C5FC8 /* Frameworks */,
-				E16F769D240B410A006C5FC8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftOrderedDictionary;
-			productName = SwiftOrderedDictionary;
-			productReference = E16F769F240B410A006C5FC8 /* SwiftOrderedDictionary.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -291,9 +254,6 @@
 						CreatedOnToolsVersion = 11.3.1;
 					};
 					E16F768E240AFFA4006C5FC8 = {
-						CreatedOnToolsVersion = 11.3.1;
-					};
-					E16F769E240B410A006C5FC8 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
@@ -314,7 +274,6 @@
 				E16F765F240AFAFC006C5FC8 /* OrderedDictionary */,
 				E16F7683240AFF90006C5FC8 /* Example */,
 				E16F768E240AFFA4006C5FC8 /* Tests */,
-				E16F769E240B410A006C5FC8 /* SwiftOrderedDictionary */,
 			);
 		};
 /* End PBXProject section */
@@ -328,13 +287,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E16F768D240AFFA4006C5FC8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E16F769D240B410A006C5FC8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -429,14 +381,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E16F7692240AFFA4006C5FC8 /* Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E16F769B240B410A006C5FC8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E16F76A7240B4146006C5FC8 /* orderedDict.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -680,54 +624,6 @@
 			};
 			name = Release;
 		};
-		E16F76A5240B410A006C5FC8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = XLKATCU397;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwiftOrderedDictionary/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.porternet.SwiftOrderedDictionary;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		E16F76A6240B410A006C5FC8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = XLKATCU397;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwiftOrderedDictionary/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.porternet.SwiftOrderedDictionary;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -763,15 +659,6 @@
 			buildConfigurations = (
 				E16F7698240AFFA4006C5FC8 /* Debug */,
 				E16F7699240AFFA4006C5FC8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E16F76A4240B410A006C5FC8 /* Build configuration list for PBXNativeTarget "SwiftOrderedDictionary" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E16F76A5240B410A006C5FC8 /* Debug */,
-				E16F76A6240B410A006C5FC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

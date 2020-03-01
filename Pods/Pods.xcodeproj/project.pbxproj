@@ -12,10 +12,10 @@
 		0EA7ADE4E24E27D62FB3A94D3208CC9D /* Pods-Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D79A12954C0B6C66B6BA7AF1E231DC8 /* Pods-Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33A8C698ADD0B11B248AE60513D2B87C /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DDE38B6AC0C7E8A7644FFD5FE00CBD /* Pods-Example-dummy.m */; };
 		42634CFEDF7DC48F43AC50DDD9261894 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3DD03A80BF50B422312EC962262A481 /* Pods-Tests-dummy.m */; };
-		69195E31240EBAF2921F79655420DDAB /* orderedDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21FC3E326D3E24AD1D551023F4987B7 /* orderedDict.swift */; };
 		838CCBF6E0A75E258D46A51FFAEFCDCB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
-		83C0AE509A4AEB5E1BA9836BD6C70DF1 /* SwiftOrderedDictionary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5C33E69A67A68FE4D6820C8AABB577 /* SwiftOrderedDictionary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D075622A1D42B1C7CE1CF4E5D8B19FBB /* SwiftOrderedDictionary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 769D6755292AF485F68B8A8DAE7B1B9F /* SwiftOrderedDictionary-dummy.m */; };
+		83C0AE509A4AEB5E1BA9836BD6C70DF1 /* SwiftOrderedDictionary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17DD4164E24C095F353B5EF029BCA9D8 /* SwiftOrderedDictionary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A324D8C22094094D5730EABF9A8FAAB8 /* orderedDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DBC66E5049D77699F5FED6CA7F7A93 /* orderedDict.swift */; };
+		D075622A1D42B1C7CE1CF4E5D8B19FBB /* SwiftOrderedDictionary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A9C685D5BA9AE52DCE701510DA738E /* SwiftOrderedDictionary-dummy.m */; };
 		FC980EF86A86217AC5A79EDBC06655E1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,32 +44,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A624934AAF34EE854A046AB5B27F116 /* SwiftOrderedDictionary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftOrderedDictionary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		15F436253FDBA5DD6FC006B2536BECA9 /* SwiftOrderedDictionary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftOrderedDictionary.modulemap; sourceTree = "<group>"; };
 		16CEF565C039A715CE8780E0895D2F0F /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1F2337CBFDC158D1F1FE590F2ACB89B2 /* SwiftOrderedDictionary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftOrderedDictionary-prefix.pch"; sourceTree = "<group>"; };
+		17DD4164E24C095F353B5EF029BCA9D8 /* SwiftOrderedDictionary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftOrderedDictionary-umbrella.h"; sourceTree = "<group>"; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20057693DC61678E3BCE61BA3477BB6B /* SwiftOrderedDictionary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftOrderedDictionary-prefix.pch"; sourceTree = "<group>"; };
 		2016900412EBCF8BA3A8792315E3DBCB /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		21D2496E262D33F49223BEE971FA21D7 /* SwiftOrderedDictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftOrderedDictionary.framework; path = SwiftOrderedDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC35EEBB6033FDD40C4C48F9B0B3091 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
-		4D5C33E69A67A68FE4D6820C8AABB577 /* SwiftOrderedDictionary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftOrderedDictionary-umbrella.h"; sourceTree = "<group>"; };
+		3D6A9C5133311E0FE5F43362DB20F575 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		4D79A12954C0B6C66B6BA7AF1E231DC8 /* Pods-Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-umbrella.h"; sourceTree = "<group>"; };
-		540FF04350059871F0EC7AE4D603CD0C /* SwiftOrderedDictionary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftOrderedDictionary.modulemap; sourceTree = "<group>"; };
-		5C40891255FEE4B28E34A7C6DE20D58D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		58F8F3FE15C9E3CA85F9C9EAD0245CE8 /* SwiftOrderedDictionary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftOrderedDictionary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5FCDCC94CC5FEACACEBD4B7DF86E0D58 /* Pods-Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-Info.plist"; sourceTree = "<group>"; };
 		61E66CC37131B0672DA0322C7A257127 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		68FB004FE435E78E1ED50A9698675A36 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		769D6755292AF485F68B8A8DAE7B1B9F /* SwiftOrderedDictionary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftOrderedDictionary-dummy.m"; sourceTree = "<group>"; };
+		76C49C192820DCFBB3A2838A028148FA /* SwiftOrderedDictionary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftOrderedDictionary-Info.plist"; sourceTree = "<group>"; };
+		81EADFE9705014C3A3C536D59C64EFB3 /* SwiftOrderedDictionary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftOrderedDictionary.xcconfig; sourceTree = "<group>"; };
 		85790EB5FA6BBB98B00AE067B804BB12 /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8808BFE907A5CAD813C001C3A6026531 /* SwiftOrderedDictionary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftOrderedDictionary.xcconfig; sourceTree = "<group>"; };
 		89EC6936E36D0FAF207567A3C826135B /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
 		8A9166BEA452A9854F341025F2DC63E7 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9C1A713DF45690809B9964E9D52F9BCA /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4DDE38B6AC0C7E8A7644FFD5FE00CBD /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		B21FC3E326D3E24AD1D551023F4987B7 /* orderedDict.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = orderedDict.swift; path = OrderedDictionary/src/orderedDict.swift; sourceTree = "<group>"; };
-		B257BF845CC60E60BFEB11FDC9E389B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B00574C9C072EF405395197D5A7A150F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B3A9C685D5BA9AE52DCE701510DA738E /* SwiftOrderedDictionary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftOrderedDictionary-dummy.m"; sourceTree = "<group>"; };
 		CB1F823A097704926CF3C1526E268040 /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		CBA1C2730F679C883BB59D761218C3BA /* SwiftOrderedDictionary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftOrderedDictionary-Info.plist"; sourceTree = "<group>"; };
+		D4DBC66E5049D77699F5FED6CA7F7A93 /* orderedDict.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = orderedDict.swift; path = src/orderedDict.swift; sourceTree = "<group>"; };
 		E114FD0886E5442D0C089BD4B8C37EDB /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
 		E3DD03A80BF50B422312EC962262A481 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
 		F3922F9F0E78444FD177D53B940132E4 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -107,6 +107,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F7A1A05D59CDB1BC08BCD11087B2099 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3D6A9C5133311E0FE5F43362DB20F575 /* LICENSE */,
+				B00574C9C072EF405395197D5A7A150F /* README.md */,
+				58F8F3FE15C9E3CA85F9C9EAD0245CE8 /* SwiftOrderedDictionary.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		20AF7D653517FAEFF66EAC76C0C8DB89 /* Pods-Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,25 +143,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		52AC49896829BACD72E7280EB0FABD33 /* SwiftOrderedDictionary */ = {
+		5840B6E2AFA6081C495B45A853CB4508 /* SwiftOrderedDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				B21FC3E326D3E24AD1D551023F4987B7 /* orderedDict.swift */,
-				540939822080980E3659DEE126872A8E /* Pod */,
-				788732E36CCBEDB10518CF4A9370CAB8 /* Support Files */,
+				D4DBC66E5049D77699F5FED6CA7F7A93 /* orderedDict.swift */,
+				0F7A1A05D59CDB1BC08BCD11087B2099 /* Pod */,
+				C983A3A6200758275FF31C9D7FBC4063 /* Support Files */,
 			);
 			name = SwiftOrderedDictionary;
 			path = ..;
-			sourceTree = "<group>";
-		};
-		540939822080980E3659DEE126872A8E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5C40891255FEE4B28E34A7C6DE20D58D /* LICENSE */,
-				B257BF845CC60E60BFEB11FDC9E389B7 /* README.md */,
-				0A624934AAF34EE854A046AB5B27F116 /* SwiftOrderedDictionary.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		5D4AFE70D3C6C0185DA91AD394D948EC /* Products */ = {
@@ -164,24 +164,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		788732E36CCBEDB10518CF4A9370CAB8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				540FF04350059871F0EC7AE4D603CD0C /* SwiftOrderedDictionary.modulemap */,
-				8808BFE907A5CAD813C001C3A6026531 /* SwiftOrderedDictionary.xcconfig */,
-				769D6755292AF485F68B8A8DAE7B1B9F /* SwiftOrderedDictionary-dummy.m */,
-				CBA1C2730F679C883BB59D761218C3BA /* SwiftOrderedDictionary-Info.plist */,
-				1F2337CBFDC158D1F1FE590F2ACB89B2 /* SwiftOrderedDictionary-prefix.pch */,
-				4D5C33E69A67A68FE4D6820C8AABB577 /* SwiftOrderedDictionary-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/SwiftOrderedDictionary";
-			sourceTree = "<group>";
-		};
 		99ADC17E5571277DC82CED4C4771A5FE /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				52AC49896829BACD72E7280EB0FABD33 /* SwiftOrderedDictionary */,
+				5840B6E2AFA6081C495B45A853CB4508 /* SwiftOrderedDictionary */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -201,6 +187,20 @@
 			);
 			name = "Pods-Tests";
 			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		C983A3A6200758275FF31C9D7FBC4063 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15F436253FDBA5DD6FC006B2536BECA9 /* SwiftOrderedDictionary.modulemap */,
+				81EADFE9705014C3A3C536D59C64EFB3 /* SwiftOrderedDictionary.xcconfig */,
+				B3A9C685D5BA9AE52DCE701510DA738E /* SwiftOrderedDictionary-dummy.m */,
+				76C49C192820DCFBB3A2838A028148FA /* SwiftOrderedDictionary-Info.plist */,
+				20057693DC61678E3BCE61BA3477BB6B /* SwiftOrderedDictionary-prefix.pch */,
+				17DD4164E24C095F353B5EF029BCA9D8 /* SwiftOrderedDictionary-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/SwiftOrderedDictionary";
 			sourceTree = "<group>";
 		};
 		CBD43E0947D94E318A0ED1350CFF29ED /* OS X */ = {
@@ -375,7 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69195E31240EBAF2921F79655420DDAB /* orderedDict.swift in Sources */,
+				A324D8C22094094D5730EABF9A8FAAB8 /* orderedDict.swift in Sources */,
 				D075622A1D42B1C7CE1CF4E5D8B19FBB /* SwiftOrderedDictionary-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,7 +482,7 @@
 		};
 		109CFF18D8EB2D403C1D4720534EED4E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8808BFE907A5CAD813C001C3A6026531 /* SwiftOrderedDictionary.xcconfig */;
+			baseConfigurationReference = 81EADFE9705014C3A3C536D59C64EFB3 /* SwiftOrderedDictionary.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -624,7 +624,7 @@
 		};
 		792D45190F09671D7E7BFCF41528ACA2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8808BFE907A5CAD813C001C3A6026531 /* SwiftOrderedDictionary.xcconfig */;
+			baseConfigurationReference = 81EADFE9705014C3A3C536D59C64EFB3 /* SwiftOrderedDictionary.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;

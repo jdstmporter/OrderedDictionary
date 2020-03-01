@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "."
 
 SPEC CHECKSUMS:
-  SwiftOrderedDictionary: f2d56f36328deeecf9fb602f3613b1d2fa1b58df
+  SwiftOrderedDictionary: b32752060aa784572597e09f5f5425fb4f60ecb7
 
 PODFILE CHECKSUM: 91ec3984babdd429182d0cbc09b307bffddc0557
 
