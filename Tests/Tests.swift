@@ -94,10 +94,13 @@ class Tests: XCTestCase {
     }
     
     func testAddNonDistinctKeysCount() {
-        let keys : [UInt] = rng.array(2*N, min: 0, max: N)
-        keys.forEach { d[$0] = rng.string(10) }
-        print("Count is \(d.count), added \(Set(keys).count)")
-        XCTAssertEqual(d.count, Set(keys).count)
+        let counts : [Bool] = NN.map { size in
+            let keys : [UInt] = rng.array(2*size, min: 0, max: size)
+            keys.forEach { d[$0] = rng.string(10) }
+            print("Count is \(d.count), added \(Set(keys).count)")
+            return d.count==Set(keys).count
+        }
+        XCTAssert(counts.allSatisfy { $0 })
     }
     
     func testAddDistinctKeysValues() {
